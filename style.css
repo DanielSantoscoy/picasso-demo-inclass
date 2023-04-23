@@ -13,7 +13,7 @@ body {
 .upper-box{
     position: relative;
     display: flex;
-    height: 50%;
+    height: 33%;
     background-color: #00989d;
 }
 
@@ -23,7 +23,7 @@ body {
     justify-content: center;
     align-items: center;
     color: white;    
-    border: white 0.3rem solid;    
+    border: white 0.8rem solid;    
 }
 
 .circle {
@@ -35,64 +35,68 @@ body {
 
 .circle1{
     background-color: #fe8888;
-    width: 30px;
-    height: 30px;
+    width: 37px;
+    height: 37px;
     top: 20px;
-    left: 20px;
+    left: 55px;
     z-index: 1;
 }
 
 .circle2 {
-    background-color: yellow;
-    top: 30px;
-    left: 160px;
+    background-color: rgb(255, 255, 127);
+    width: 125px;
+    height: 125px;
+    top: 55px;
+    left: 200px;
     z-index: 1;
 }
 .circle3{
     background-color: #fe8888;
-    width: 30px;
-    height: 30px;
-    top: 40px;
-    left: 360px;
+    width: 37px;
+    height: 37px;
+    top: 50px;
+    left: 450px;
     z-index: 1;
 }
 
 .circle6 {
 background-color: #fe8888;
-top: 90px;
-left: 240px;
+width: 125px;
+height: 125px;
+top: 155px;
+left: 335px;
 z-index: 1;
 }
 
 .circle4 {
-background-color: #fe8888;
-width: 30px;
-height: 30px;
-top: 120px;
-left: 20px;
-z-index: 1;
+    background-color: #fe8888;
+    width: 37px;
+    height: 37px;
+    top: 180px;
+    left: 55px;
+    z-index: 1;
 }
 
 .circle5 {
-    background-color: yellow;
-    width: 30px;
-    height: 30px;
-    top: 190px;
-    left: 80px;
+    background-color: rgb(255, 255, 132);
+    width: 39px;
+    height: 39px;
+    top: 300px;
+    left: 150px;
     z-index: 1;
     }
 
     #figure-1{
         position: absolute;
         z-index: 1;
-        left: 300px;
+        left: 327px;
         bottom: 0px;
-        width:150px
+        width:165px
     }
     #figure-2{
         position: absolute;
         bottom: 0px;
-        width:300px;
+        width:330px;
         z-index: 1;
     }
 
@@ -108,19 +112,19 @@ z-index: 1;
 
     .triangle-small {
         width: 0;
-        height: 0;
-        border-bottom: 200px solid #c9e265;
-        border-left: 100px solid transparent;
-        border-right:100px solid transparent;
+        height: 150px;
+        border-bottom: 300px solid #c9e265;
+        border-left: 180px solid transparent;
+        border-right:180px solid transparent;
         z-index: 2;
     }
 
     .triangle-big {
         width: 0;
         height: 0;
-        border-bottom:350px solid #008036;
-        border-left: 150px solid transparent;
-        border-right:150px solid transparent;
-        right: calc(50% - 250px);
+        border-bottom:500px solid #008036;
+        border-left: 240px solid transparent;
+        border-right:220px solid transparent;
+        right: calc(50% - 430px);
        
     }
